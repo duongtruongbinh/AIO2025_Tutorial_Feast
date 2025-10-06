@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.so
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Feast specific
+feature_repo/data/registry.db
+feature_repo/data/online_store.db
+
+# Data files (large)
+data/creditcard.csv
+data/processed_data.parquet
+
+# Model files
+*.pkl
+
+# Jupyter
+.ipynb_checkpoints
+
+# Logs
+*.log
